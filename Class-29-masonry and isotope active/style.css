@@ -1,0 +1,220 @@
+
+.section-padding{
+  padding: 80px 0;
+}
+
+.projects-titles{
+  margin: 0 0 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.projects-titles li{
+  display: inline-block;
+  padding-right: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.single-project-item a,.single-project-item span,.projects-titles li.active{
+  color: #00E3DB;
+}
+
+
+.single-project-item{
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #ddd;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.single-project-item:hover .project-hover{
+  opacity: 1;
+}
+
+.project-hover{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  transition: .3s;
+}
+
+.project-hover::after{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  content: '';
+  opacity: .2;
+}
+
+.project-hover a{
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  font-size: 20px;
+}
+
+.project-hover h4{
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.project-hover h4 span{
+  display: block;
+  font-size: 80%;
+  margin-top: 10px;
+}
+
+.row .projects-list .col-md-4{
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+.row .projects-list{
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+
+.project-bg-food-1{
+  background-image: url(img/food-1.jpg);
+}
+.project-bg-food-2{
+  background-image: url(img/food-2.jpg);
+}
+.project-bg-food-3{
+  background-image: url(img/food-3.jpg);
+}
+.project-bg-food-4{
+  background-image: url(img/food-4.jpg);
+}
+.project-bg-food-5{
+  background-image: url(img/food-5.jpg);
+}
+.project-bg-food-6{
+  background-image: url(img/food-6.jpg);
+}
+.project-bg-food-7{
+  background-image: url(img/food-7.jpg);
+}
+.project-bg-food-8{
+  background-image: url(img/food-8.jpg);
+}
+.project-bg-food-9{
+  background-image: url(img/food-9.jpg);
+}
+
+.project-bg-graphic-11{
+  background-image: url(img/graphic-11.jpg);
+}
+.project-bg-graphic-12{
+  background-image: url(img/graphic-12.jpg);
+}
+.project-bg-graphic-13{
+  background-image: url(img/graphic-13.jpg);
+}
+.project-bg-graphic-14{
+  background-image: url(img/graphic-14.jpg);
+}
+.project-bg-graphic-15{
+  background-image: url(img/graphic-15.jpg);
+}
+.project-bg-graphic-16{
+  background-image: url(img/graphic-16.jpg);
+}
+.project-bg-graphic-17{
+  background-image: url(img/graphic-17.jpg);
+}
+.project-bg-graphic-18{
+  background-image: url(img/graphic-18.jpg);
+}
+.project-bg-graphic-19{
+  background-image: url(img/graphic-19.jpg);
+}
+
+.project-bg-design-21{
+  background-image: url(img/design-21.jpg);
+}
+.project-bg-design-22{
+  background-image: url(img/design-22.jpg);
+}
+.project-bg-design-23{
+  background-image: url(img/design-23.jpg);
+}
+.project-bg-design-24{
+  background-image: url(img/design-24.jpg);
+}
+.project-bg-design-25{
+  background-image: url(img/design-25.jpg);
+}
+.project-bg-design-26{
+  background-image: url(img/design-26.jpg);
+}
+.project-bg-design-27{
+  background-image: url(img/design-27.jpg);
+}
+.project-bg-design-28{
+  background-image: url(img/design-28.jpg);
+}
+.project-bg-design-29{
+  background-image: url(img/design-29.jpg);
+}
+
+.project-bg-photo-retouch-31{
+  background-image: url(img/photo-retouch-31.jpg);
+}
+.project-bg-photo-retouch-32{
+  background-image: url(img/photo-retouch-32.jpg);
+}
+.project-bg-photo-retouch-33{
+  background-image: url(img/photo-retouch-33.jpg);
+}
+.project-bg-photo-retouch-34{
+  background-image: url(img/photo-retouch-34.jpg);
+}
+.project-bg-photo-retouch-35{
+  background-image: url(img/photo-retouch-35.jpg);
+}
+.project-bg-photo-retouch-36{
+  background-image: url(img/photo-retouch-36.jpg);
+}
+.project-bg-photo-retouch-37{
+  background-image: url(img/photo-retouch-37.jpg);
+}
+.project-bg-photo-retouch-38{
+  background-image: url(img/photo-retouch-38.jpg);
+}
+.project-bg-photo-retouch-39{
+  background-image: url(img/photo-retouch-39.jpg);
+}
+
+.row.projects-list .col-md-4:nth-child(2) .single-project-item,
+.row.projects-list .col-md-4:nth-child(4) .single-project-item,
+.row.projects-list .col-md-4:nth-child(6) .single-project-item,
+.row.projects-list .col-md-4:nth-child(12) .single-project-item,
+.row.projects-list .col-md-4:nth-child(14) .single-project-item,
+.row.projects-list .col-md-4:nth-child(16) .single-project-item,
+.row.projects-list .col-md-4:nth-child(21) .single-project-item,
+.row.projects-list .col-md-4:nth-child(24) .single-project-item,
+.row.projects-list .col-md-4:nth-child(26) .single-project-item,
+.row.projects-list .col-md-4:nth-child(35) .single-project-item,
+.row.projects-list .col-md-4:nth-child(34) .single-project-item,
+.row.projects-list .col-md-4:nth-child(36) .single-project-item
+{
+  height: 615px;
+}
+
